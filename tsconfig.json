@@ -11,6 +11,7 @@
     "noEmitOnError": true,
     "noImplicitAny": true,
     "outDir": "./dist",
+    "jsx": "react-jsx"
   },
   "exclude": [
     "src/tests" 
