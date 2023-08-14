@@ -1,3 +1,4 @@
+import { ArrowSquareOut } from "phosphor-react";
 import { LoginForm } from "../forms/LoginForm";
 
 export const Login = () => {
@@ -9,6 +10,10 @@ export const Login = () => {
         </div>
         <div className="login-page__main__form-container">
           <LoginForm />
+        </div>
+        <div className="login-page__main__register">
+          <a href="/register">Ou então crie uma conta</a>
+          <ArrowSquareOut size={15} color="var(--main-color)" weight="bold" />
         </div>
       </section>
       <section className="login-page__image">

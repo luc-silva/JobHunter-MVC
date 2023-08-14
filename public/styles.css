@@ -136,6 +136,9 @@ table {
   font-family: Arial, Helvetica, sans-serif;
   outline: none;
 }
+a:visited{
+  color: inherit;
+}
 :root {
   --main-color: #02faad;
   --secondary-color: #1cdaff;
@@ -283,6 +286,66 @@ table {
   flex-direction: column;
   flex-grow: 1;
 }
+.login-page__main__register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  text-align: center;
+  color: var(--text-color);
+}
+.login-page__main__register a{
+  line-height: 1rem;
+}
+.login-page__main__register a:hover{
+  text-decoration: underline;
+}
+
+.register-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: var(--background-faded-color);
+}
+.register__form-container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  padding: 2rem;
+  gap: 1rem;
+  width: 60%;
+  height: 100%;
+  background-color: var(--background-color);
+}
+.register__form-container form section > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.register__form-container__title{
+  font-size: 1.5rem;
+  color: var(--title-color);
+}
+.register__form-container form > section {
+  padding: 1rem;
+  border-top: 1px solid var(--background-faded-color);
+}
+.register__input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.register__input-container label{
+  font-size: 0.8rem;
+  color: var(--text-color);
+}
+.register__input-container input{
+  padding: 0.25rem;
+  background-color: var(--background-faded-color);
+}
+
 
 .index-page {
   display: flex;
