@@ -43,7 +43,7 @@ export const Register = () => {
               <div className="register__input-container">
                 <label htmlFor="area">Área de atuação pretendida</label>
                 <input type="text" required />
-              </div> 
+              </div>
               <div className="register__input-container">
                 <label htmlFor="salary">Salário desejado</label>
                 <input name="salary" type="number" required />
